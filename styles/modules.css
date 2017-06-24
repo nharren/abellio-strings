@@ -1,0 +1,35 @@
+.logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  height: 16vw;
+  margin-bottom: 5px;
+}
+
+.title {
+  width: 100%;
+  display: block;
+  font-family: 'Fredericka the Great';
+  font-size: 3em;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 25px;
+}
+
+nav li {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif !important
+}
+
+nav a {
+  padding: 15px;
+}
+
+nav a:hover {
+  color: red;
+}
