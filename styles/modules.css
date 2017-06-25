@@ -35,7 +35,7 @@ section.home {
 
 .home-group-photo {
   text-align: center;
-  max-width: 700px;
+  max-width: 100%;
   margin-top: 30px;
 }
 
@@ -88,4 +88,60 @@ th, td {
 
 th {
   font-weight: bold;
+}
+
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.media-header {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.separator {
+  height: 2px;
+  width: 80%;
+  background: lightgray;
+  margin: 10px auto 20px auto;
+  text-align: center;
+}
+
+.media-video, .media-audio {
+  padding: 30px;
+  min-width: 420px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  padding: 0;
+}
+
+.contact p {
+  padding: 5px;
+  font-size: 1.25em;
+}
+
+.contact a {
+  display: block;
+  width: 1.5em;
+  margin: 15px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.contact a div {
+  text-align: center;
+}
+
+.contact iframe {
+  padding-top: 50px;
+  max-width: 991px;
+  border:0;
+  width:90vw;
+  height:2000px;
 }
