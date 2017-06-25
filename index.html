@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/states.css">
     <link rel="stylesheet" href="styles/theme.css">
+    <script class="music-template" type="text/x-handlebars-template">
+      <tr class="music-row">
+        <td>{{title}}</td>
+        <td>{{composer}}</td>
+        <td>{{genre}}</td>
+      <tr>
+    </script>
   </head>
   <body>
     <header>
@@ -20,6 +27,7 @@
         <a class="menu-item selected" data-section="home" href="#">Home</a>
         <a class="menu-item" data-section="about" href="#">About</a>
         <a class="menu-item" data-section="services" href="#">Services</a>
+        <a class="menu-item" data-section="music" href="#">Music</a>
         <a class="menu-item" data-section="media" href="#">Media</a>
         <a class="menu-item" data-section="contact" href="#">Contact</a>
       </nav>
@@ -90,6 +98,15 @@
         <p>Song arrangements: 1st free, each additional is $50.
         <p>We are able to collaborate with singers. We are also available for studio recordings and as backing for local and touring bands. Please contact us for more information on availability and pricing.</p>
         <p>*This includes prelude, ceremony, and postlude music only. The limit is 1.5 hours and begins from the moment we start the prelude music.</p>
+      </section>
+      <section class="music hidden">
+        <table class="music-table">
+          <tr>
+            <th>Title</th>
+            <th>Composer</th>
+            <th>Genre</th>
+          </tr>
+        </table>
       </section>
       <section class="media hidden">
         <h2 class="media-header">Duos</h2>
@@ -162,6 +179,7 @@
     </footer>
 
     <script src="vendor/scripts/jquery-3.2.1.min.js"></script>
+    <script src="vendor/scripts/handlebars-v4.0.10.min.js"></script>
     <script src="scripts/scripts.js"></script>
   </body>
 </html>
