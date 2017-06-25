@@ -3,19 +3,13 @@
   <head>
     <title>Abellio Strings</title>
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="vendor/styles/reset.css">
+    <link rel="stylesheet" href="vendor/styles/icomoon.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="stylesheet" href="styles/states.css">
     <link rel="stylesheet" href="styles/theme.css">
-    <script class="music-template" type="text/x-handlebars-template">
-      <tr class="music-row">
-        <td>{{title}}</td>
-        <td>{{composer}}</td>
-        <td>{{genre}}</td>
-      <tr>
-    </script>
   </head>
   <body>
     <header>
@@ -37,6 +31,7 @@
         <img class="home-group-photo" src="images/group-photo.jpg" />
       </section>
       <section class="about hidden">
+        <p class="about-text">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
         <div class="profile">
           <p class="profile-name">Kimmy Harrenstein</p>
           <p class="profile-instrument">Violin/Viola</p>
@@ -168,16 +163,12 @@
         </div>
       </section>
       <section class="contact hidden">
-        <p>Kimberly Harrenstein, Manager</p>
-        <p>(808) 372-7424</p>
-        <a href="https://www.facebook.com/abelliostrings"><div class="icon-facebook2"></div></a>
-        <iframe src="https://www.gigmasters.com/requestquote?type=portable&amp;memberId=112029"></iframe>
+        <p class="contact-name">Kimberly Harrenstein, Manager</p>
+        <a class="contact-phone" href="tel:+1-808-372-7424">(808) 372-7424</a>
+        <a class="contact-social" href="https://www.facebook.com/abelliostrings"><div class="icon-facebook2"></div></a>
+        <iframe class="contact-gigmasters" src="https://www.gigmasters.com/requestquote?type=portable&amp;memberId=112029"></iframe>
       </section>
     </main>
-    <footer>
-
-    </footer>
-
     <script src="vendor/scripts/jquery-3.2.1.min.js"></script>
     <script src="vendor/scripts/handlebars-v4.0.10.min.js"></script>
     <script src="scripts/scripts.js"></script>

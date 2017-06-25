@@ -1,6 +1,7 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
 a {
   color: black;
   text-decoration: none;
@@ -23,8 +24,16 @@ th {
   background-color: rgb(248,248,248);
 }
 
+.music-table a:hover {
+  color: red;
+}
+
 .profile-instrument {
   color: green;
+}
+
+.contact-phone {
+  color: mediumblue;
 }
 
 .selected {

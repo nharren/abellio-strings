@@ -46,6 +46,13 @@ section.home {
   justify-content: flex-start;
 }
 
+.about-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1em;
+}
+
 .profile {
   padding: 15px;
   min-width: 300px;
@@ -90,10 +97,6 @@ th {
   font-weight: bold;
 }
 
-.music-table a:hover {
-  color: red;
-}
-
 .media-container {
   display: flex;
   flex-wrap: wrap;
@@ -125,12 +128,18 @@ th {
   padding: 0;
 }
 
-.contact p {
+.contact-name {
   padding: 5px;
   font-size: 1.25em;
 }
 
-.contact a {
+.contact-phone {
+  display: block;
+  font-size: 1.25em;
+  margin-top: 3px;
+}
+
+.contact-social {
   display: block;
   width: 1.5em;
   margin: 15px auto 0 auto;

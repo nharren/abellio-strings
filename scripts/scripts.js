@@ -17,7 +17,6 @@ view.handleMenuEvents = function() {
     selectedSection.fadeIn(100);
 
     if (selectedSectionName === 'music' && !view.hasBuiltMusicTable) {
-      console.log($('.music-table tr'));
       view.buildMusicTable();
     }
 
@@ -26,45 +25,63 @@ view.handleMenuEvents = function() {
 }
 
 view.buildMusicTable = function() {
-  let source = $(".music-template").html().trim();
-  let template = Handlebars.compile(source);
-  let table = $('.music-table tbody');
-
-  $.getJSON('data/music.json', function(data) {
-    console.log('data length: ' + data.length);
-    for (let i = 0; i < data.length; i++) {
-      let element = data[i];
-      let musicRow = template(element);
-      table.append(musicRow);
-    }
-  });
-  
+  $.getJSON('data/music.json', view.createMusicTableRows);
   view.handleMusicTableHeaders();
 }
 
+view.createMusicTableRows = function(data) {
+  let musicTable = document.getElementsByClassName('music-table')[0];
+
+  for (let i = 0; i < data.length; i++) {
+    let obj = data[i];
+    
+    let row = musicTable.insertRow(i + 1);
+    row.className = 'music-row';
+
+    Object.keys(obj).forEach(function(key, index) {
+      let cell = row.insertCell(index);
+      cell.innerText = obj[key];
+    });
+  }
+}
+
+
 view.handleMusicTableHeaders = function() {
   $('.music-table-title-header').on('click', function(event) {
-    view.sortMusicTableByColumn(0);
+    view.sortMusicTableByColumns($(this), [0]);
     event.preventDefault();
   });
 
   $('.music-table-composer-header').on('click', function(event) {
-    view.sortMusicTableByColumn(1);
+    view.sortMusicTableByColumns($(this), [0,1]);
     event.preventDefault();
   });
 
   $('.music-table-genre-header').on('click', function(event) {
-    view.sortMusicTableByColumn(2);
+    view.sortMusicTableByColumns($(this), [0,2]);
     event.preventDefault();
   });
 }
 
-view.sortMusicTableByColumn = function(column) {
-  let sortedRows = $('.music-row').detach().sort(function(a,b) {
-    return a.children[column].innerText.localeCompare(b.children[column].innerText);
-  });
-  console.log('rows length: ' + sortedRows.length);
-  sortedRows.appendTo('.music-table tbody');
+view.sortMusicTableByColumns = function(header, columns) {
+  let descend = header.hasClass('ascend');
+
+  columns.forEach(c => view.sortMusicTableByColumn(c, !descend));
+  
+  $('.music-table a').removeClass('ascend');
+  $('.music-table a').removeClass('descend');
+
+  header.addClass(descend ? 'descend' : 'ascend');
+}
+
+view.sortMusicTableByColumn = function(column, ascend) {
+  $('.music-row').detach()
+                 .sort(function(a,b)  {
+                   let aText = a.children[column].innerText;
+                   let bText = b.children[column].innerText;
+                   return ascend ? aText.localeCompare(bText) : bText.localeCompare(aText);
+                 })
+                 .appendTo('.music-table tbody');
 }
 
 $(document).ready(function() {
