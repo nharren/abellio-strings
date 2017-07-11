@@ -1,0 +1,41 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+nav a:hover {
+  color: red;
+}
+
+table, th, td {
+  border-color: rgb(201, 205, 207);
+}
+
+th {
+  background-color: rgb(248,248,248);
+}
+
+.music-table a:hover {
+  color: red;
+}
+
+.profile-instrument {
+  color: green;
+}
+
+.contact-phone {
+  color: mediumblue;
+}
+
+.selected {
+  color: red;
+}

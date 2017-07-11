@@ -1,0 +1,15 @@
+.hidden {
+  transition: none;
+  opacity: 0; 
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ascend:after {
+  content: '▴'
+}
+
+.descend:after {
+  content: '▾'
+}
