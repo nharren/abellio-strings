@@ -3,7 +3,7 @@
 
 <head>
   <title>Abellio Strings</title>
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="/vendor/styles/reset.css">
   <link rel="stylesheet" href="/styles/base.css">
   <link rel="stylesheet" href="/styles/layout.css">
@@ -19,20 +19,20 @@
     </div>
     <h1 class="title">Abellio Strings</h1>
     <nav>
-      <a class="selected" href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/services">Services</a>
-      <a href="/music">Music</a>
-      <a href="/media">Media</a>
-      <a href="/contact">Contact</a>
+      <a id="menu-home" class="selected" href="/">Home</a>
+      <a id="menu-about" href="/about">About</a>
+      <a id="menu-services" href="/services">Services &amp; Rates</a>
+      <a id="menu-music" href="/music">Repertoire</a>
+      <a id="menu-media" href="/media">Samples</a>
+      <a id="menu-contact" href="/contact">Contact</a>
     </nav>
   </header>
   <main>
     <section id="home">
-      <img class="home-group-photo" src="/images/group-photo.jpg" />
+      <div id="home-group-photo"></div>
     </section>
     <section id="about">
-      <p class="about-text">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
+      <p id="about-text">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
       <div class="profile">
         <p class="profile-name">Kimmy Harrenstein</p>
         <p class="profile-instrument">Violin/Viola</p>
@@ -55,47 +55,52 @@
       </div>
     </section>
     <section id="services">
-      <p>We are available to play acoustic or amplified and can provide our own equipment.</p>
+      <p id="services-text">A 20% deposit is due at the time of booking</p>
+      <h2 class="services-header">Ensembles</h2>
       <table>
         <tr>
           <th>Instrumentation</th>
-          <th>1 Hour (1.5 Hours for weddings*)</th>
-          <th>Each Additional Hour</th>
+          <th>1 Hour (+30 min for Weddings)</th>
+          <th>Each Additional &frac12; Hour</th>
         </tr>
         <tr>
-          <td>Solo Violin, Viola, or Cello</td>
+          <td>String Solo</td>
           <td>$250</td>
           <td>$50</td>
         </tr>
         <tr>
-          <td>
-            <p>Violin/Violin Duo</p>
-            <p>Violin/Viola Duo</p>
-            <p>Violin/Cello Duo</p>
-          </td>
+          <td>String Duo</td>
           <td>$300</td>
+          <td>$62.50</td>
+        </tr>
+        <tr>
+          <td>String Trio</td>
+          <td>$450</td>
           <td>$75</td>
         </tr>
         <tr>
-          <td>
-            <p>Violin, Violin, Cello Trio</p>
-            <p>Violin, Viola, Cello Trio</p>
-          </td>
-          <td>$450</td>
+          <td>String Quartet</td>
+          <td>$600</td>
           <td>$100</td>
         </tr>
-        <tr>
-          <td>Quartet</td>
-          <td>$600</td>
-          <td>$125</td>
-        </tr>
       </table>
-      <p>-A 20% deposit is due at the dime of booking-</p>
-      <p>Song arrangements: 1st free, each additional is $50.
-        <p>We are able to collaborate with singers. We are also available for studio recordings and as backing for local and
-          touring bands. Please contact us for more information on availability and pricing.</p>
-        <p>*This includes prelude, ceremony, and postlude music only. The limit is 1.5 hours and begins from the moment we start
-          the prelude music.</p>
+      <h2 id="custom-arrangements-header" class="services-header">Custom Arrangements</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>First Arrangement</th>
+            <th>Each Additional Arrangement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Free</td>
+            <td>$50</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="amplification-header" class="services-header">Amplification</h2>
+      <p>We can provide complete amplification services including a PA system for the instruments for a small fee.</p>
     </section>
     <section id="music">
       <table id="music-table">
@@ -163,14 +168,17 @@
       </div>
     </section>
     <section id="contact">
-      <p class="contact-name">Kimberly Harrenstein, Manager</p>
-      <a class="contact-phone" href="tel:+1-808-372-7424">(808) 372-7424</a>
+      <p class="contact-name">Kimberly Harrenstein</p>
+      <p class="contact-name">Manager</p>
+      <a class="contact-phone" href="mailto:info@abelliostrings.com">info@abelliostrings.com</a>
+      <a class="contact-phone" href="tel:+01-808-372-7424">(808) 372-7424</a>
       <a class="contact-social" href="https://www.facebook.com/abelliostrings">
         <img id="contact-facebook" src="/images/facebook.svg" />
       </a>
       <iframe class="contact-gigmasters" src="https://www.gigmasters.com/requestquote?type=portable&amp;memberId=112029"></iframe>
     </section>
   </main>
+  <footer></footer>
   <script src="/vendor/scripts/jquery-3.2.1.min.js"></script>
   <script src="/vendor/scripts/page.js"></script>
   <script src="/scripts/views/view.js"> </script>

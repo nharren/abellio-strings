@@ -6,7 +6,7 @@ var app = app || {};
   const musicController = {};
 
   musicController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-music').addClass('selected').siblings().removeClass('selected');
     app.musicView.index();
   };
 

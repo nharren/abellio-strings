@@ -6,7 +6,7 @@ var app = app || {};
   const mediaController = {};
 
   mediaController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-media').addClass('selected').siblings().removeClass('selected');
     $('#media').removeClass('hidden').siblings().addClass('hidden');
   };
 

@@ -6,7 +6,7 @@ var app = app || {};
   const contactController = {};
 
   contactController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-contact').addClass('selected').siblings().removeClass('selected');
     $('#contact').removeClass('hidden').siblings().addClass('hidden');
   };
 

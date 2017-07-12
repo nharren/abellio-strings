@@ -8,13 +8,19 @@ p {
 }
 
 table {
-  width: 100%;
+  margin: 0 auto;
 }
 
-td {
-  padding: 5px;
+table, th, td {
+  border: 1px solid;
 }
 
-td p {
-  padding: 3px;
+th, td {
+  text-align: center;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+th {
+  font-weight: bold;
 }

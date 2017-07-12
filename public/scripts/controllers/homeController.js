@@ -6,7 +6,7 @@ var app = app || {};
   const homeController = {};
 
   homeController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-home').addClass('selected').siblings().removeClass('selected');
     $('#home').removeClass('hidden').siblings().addClass('hidden');
   };
 

@@ -6,7 +6,7 @@ var app = app || {};
   const aboutController = {};
 
   aboutController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-about').addClass('selected').siblings().removeClass('selected');
     $('#about').removeClass('hidden').siblings().addClass('hidden');
   };
 

@@ -1,3 +1,11 @@
 header {
-  padding: 30px 30px 0 30px;
+  height: 42%;
+}
+
+main {
+  height: 48%;
+}
+
+footer {
+  height: 10%;
 }

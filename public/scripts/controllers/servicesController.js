@@ -6,7 +6,7 @@ var app = app || {};
   const servicesController = {};
 
   servicesController.index = () => {
-    app.view.handleMenuItems();
+    $('#menu-services').addClass('selected').siblings().removeClass('selected');
     $('#services').removeClass('hidden').siblings().addClass('hidden');
   };
 

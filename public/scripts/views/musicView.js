@@ -12,6 +12,8 @@ var app = app || {};
 
     if (!musicView.hasBuiltMusicTable) {
       musicView.buildMusicTable();
+
+      musicView.hasBuiltMusicTable = true;
     }
   }
 
