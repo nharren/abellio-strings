@@ -4,6 +4,7 @@
   height: 0 !important;
   padding: 0;
   overflow: hidden;
+  display: none;
 }
 
 .first {
@@ -16,4 +17,9 @@
   line-height: 1.5em;
   border-radius: 5px;
   text-align: center;
-} 
+}
+
+.open {
+  height: auto;
+  max-height: 350px;
+}
