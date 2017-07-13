@@ -51,7 +51,7 @@ var app = app || {};
     });
 
     $('.music-table-genre-header').on('click', function(event) {
-      musicView.sortMusicTableByColumns($(this), [2,0]);
+      musicView.sortMusicTableByColumns($(this), [2,1,0]);
       event.preventDefault();
     });
   }

@@ -1,38 +1,26 @@
-*, a {
+*, a, footer {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-a {
+a:hover {
+  color: red;
+}
+
+a, a:active {
   color: black;
   text-decoration: none;
+}
+
+footer {
+  font-size: 1.75vh;
 }
 
 .title {
   font-family: 'Unica One', sans-serif;
 }
 
-#about-text {
-  background-color: #d1fadb;
-  border: 1px solid #a3f5b8;
-  color: darkgreen;
-  width: 100%;
-  padding: 20px;
-  margin: 0 20% 20px 20%;
-  line-height: 1.5em;
-  border-radius: 5px;
-  text-align: center;
-}
-
 nav a {
-  font-size: 2.25vh;
-}
-
-nav a:hover {
-  color: red;
-}
-
-nav a:active {
-  color: black;
+  font-size: 2vh;
 }
 
 table, th, td {
@@ -43,8 +31,8 @@ th {
   background-color: rgb(248,248,248);
 }
 
-.music-table a:hover {
-  color: red;
+#home {
+  background: linear-gradient(135deg, lavender 0%, #BAE1F4 20%, #BAE1F4 80%, lavender 100%);
 }
 
 .profile-instrument {
@@ -57,20 +45,50 @@ th {
   margin: 0 auto;
 }
 
-.services-header {
-  font-family: 'Unica One';
-  font-size: 3vh;
+.header {
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-size: 2.5vh;
   font-weight: bold;
 }
 
-#services-text {
+.filter {
+  border: 1px solid #BAE1F4;
+  border-radius: 10px;
+}
+
+.repertoire-item {
+  font-size: 2vh;
+}
+
+.repertoire-title {
+  font-size: 2.5vh;
+}
+
+.repertoire-artist {
+  color: #229fdd;
+}
+
+.notice {
   background-color: #d1fadb;
   border: 1px solid #a3f5b8;
   color: darkgreen;
 }
 
-.contact-phone {
-  color: mediumblue;
+#contact-card {
+  background-color: #d1f0fa;
+}
+
+#contact-name {
+  font-weight: bold;
+}
+
+#contact-role {
+  color: gray;
+}
+
+#contact-phone, #contact-email {
+  color: #19b3e6;
 }
 
 .selected {

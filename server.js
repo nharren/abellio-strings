@@ -18,11 +18,11 @@ app.get('/services', function(request, response) {
   response.sendFile('index.html', { root: './public' });
 });
 
-app.get('/music', function(request, response) {
+app.get('/repertoire', function(request, response) {
   response.sendFile('index.html', { root: './public' });
 });
 
-app.get('/media', function(request, response) {
+app.get('/samples', function(request, response) {
   response.sendFile('index.html', { root: './public' });
 });
 

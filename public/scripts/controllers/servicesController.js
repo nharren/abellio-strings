@@ -5,9 +5,8 @@ var app = app || {};
 (function(module) {
   const servicesController = {};
 
-  servicesController.index = () => {
-    $('#menu-services').addClass('selected').siblings().removeClass('selected');
-    $('#services').removeClass('hidden').siblings().addClass('hidden');
+  servicesController.index = function() {
+    app.servicesView.initialize();
   };
 
   module.servicesController = servicesController;

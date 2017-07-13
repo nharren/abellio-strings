@@ -3,13 +3,28 @@
 
 <head>
   <title>Abellio Strings</title>
-  <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|Unica+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="/vendor/styles/reset.css">
   <link rel="stylesheet" href="/styles/base.css">
   <link rel="stylesheet" href="/styles/layout.css">
   <link rel="stylesheet" href="/styles/modules.css">
   <link rel="stylesheet" href="/styles/states.css">
   <link rel="stylesheet" href="/styles/theme.css">
+
+  <script id="repertoire-item-template" type="text/x-handlebars-template">
+    <div class="repertoire-item">
+      <p class="repertoire-title">{{title}}</p>
+      <p class="repertoire-artist">{{composer}}</p>
+    </div>
+  </script>
+
+  <script id="composer-filter-item-template" type="text/x-handlebars-template">
+    <div class="filter-item" data-composer="{{name}}">{{name}} ({{count}})</div>
+  </script>
+
+  <script id="genre-filter-item-template" type="text/x-handlebars-template">
+    <div class="filter-item" data-genre="{{name}}">{{name}} ({{count}})</div>
+  </script>
 </head>
 
 <body>
@@ -19,11 +34,11 @@
     </div>
     <h1 class="title">Abellio Strings</h1>
     <nav>
-      <a id="menu-home" class="selected" href="/">Home</a>
+      <a id="menu-home" href="/">Home</a>
       <a id="menu-about" href="/about">About</a>
       <a id="menu-services" href="/services">Services &amp; Rates</a>
-      <a id="menu-music" href="/music">Repertoire</a>
-      <a id="menu-media" href="/media">Samples</a>
+      <a id="menu-repertoire" href="/repertoire">Repertoire</a>
+      <a id="menu-samples" href="/samples">Samples</a>
       <a id="menu-contact" href="/contact">Contact</a>
     </nav>
   </header>
@@ -32,10 +47,10 @@
       <div id="home-group-photo"></div>
     </section>
     <section id="about">
-      <p id="about-text">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
+      <p class="notice first">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
       <div class="profile">
         <p class="profile-name">Kimmy Harrenstein</p>
-        <p class="profile-instrument">Violin/Viola</p>
+        <p class="profile-instrument">Violin</p>
         <div class="profile-image" style="background-image: url(images/kimmy.jpg)"></div>
       </div>
       <div class="profile">
@@ -55,36 +70,36 @@
       </div>
     </section>
     <section id="services">
-      <p id="services-text">A 20% deposit is due at the time of booking</p>
-      <h2 class="services-header">Ensembles</h2>
+      <h2 class="header first">Ensembles</h2>
       <table>
         <tr>
           <th>Instrumentation</th>
-          <th>1 Hour (+30 min for Weddings)</th>
-          <th>Each Additional &frac12; Hour</th>
+          <th>First Hour</th>
+          <th>Each Additional Hour</th>
         </tr>
         <tr>
           <td>String Solo</td>
           <td>$250</td>
-          <td>$50</td>
+          <td>$100</td>
         </tr>
         <tr>
           <td>String Duo</td>
           <td>$300</td>
-          <td>$62.50</td>
+          <td>$125</td>
         </tr>
         <tr>
           <td>String Trio</td>
           <td>$450</td>
-          <td>$75</td>
+          <td>$150</td>
         </tr>
         <tr>
           <td>String Quartet</td>
           <td>$600</td>
-          <td>$100</td>
+          <td>$200</td>
         </tr>
       </table>
-      <h2 id="custom-arrangements-header" class="services-header">Custom Arrangements</h2>
+      <p class="notice">A 20% deposit is due at the time of booking</p>
+      <h2 id="custom-arrangements-header" class="header">Custom Arrangements</h2>
       <table>
         <thead>
           <tr>
@@ -99,27 +114,42 @@
           </tr>
         </tbody>
       </table>
-      <h2 id="amplification-header" class="services-header">Amplification</h2>
-      <p>We can provide complete amplification services including a PA system for the instruments for a small fee.</p>
-    </section>
-    <section id="music">
-      <table id="music-table">
+      <h2 id="amplification-header" class="header">Amplification</h2>
+            <table>
         <thead>
           <tr>
-            <th><a class="music-table-title-header" href="#">Title</a></th>
-            <th><a class="music-table-composer-header" href="#">Composer</a></th>
-            <th><a class="music-table-genre-header" href="#">Genre</a></th>
+            <th>Complete Amplification Service</th>
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>$50</td>
+          </tr>
         </tbody>
       </table>
+      <p class="notice">Please note that the amplification is for our instruments only.</p>
     </section>
-    <section id="media">
-      <h2 class="media-header">Duos</h2>
-      <div class="separator"></div>
+    <section id="repertoire">
+      <div id="repertoire-filters">
+        <span id="composer-filter" class="filter">
+          <div id="composer-filter-selection" class="filter-selection">&mdash; Composer &mdash;</div>
+          <div id="composer-filter-dropdown" class="filter-dropdown">
+            <div class="filter-item">&mdash; Composer &mdash;</div>
+          </div>
+        </span>
+        <span id="genre-filter" class="filter">
+            <div id="genre-filter-selection" class="filter-selection">&mdash; Genre &mdash;</div>
+            <div id="genre-filter-dropdown" class="filter-dropdown">
+              <div class="filter-item">&mdash; Genre &mdash;</div>
+            </div>
+          </div>
+      </span>
+      <div id="repertoire-list"></div>
+    </section>
+    <section id="samples">
+      <h2 class="header first">Duos</h2>
       <div class="media-container">
-        <div class="media-video">
+        <div class="media-video first">
           <video width="420" controls="">
             <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/136898.mp4" type="video/mp4"> Your browser does not support the video tag.
           </video>
@@ -150,10 +180,9 @@
           <p>Chicken Reel</p>
         </div>
       </div>
-      <h2 class="media-header">Trios</h2>
-      <div class="separator"></div>
+      <h2 class="header">Trios</h2>
       <div class="media-container">
-        <div class="media-audio">
+        <div class="media-audio first">
           <audio width="420" controls="">
             <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/audio/148072.mp3" type="audio/mpeg"> Your browser does not support the audio element.
           </audio>
@@ -168,26 +197,37 @@
       </div>
     </section>
     <section id="contact">
-      <p class="contact-name">Kimberly Harrenstein</p>
-      <p class="contact-name">Manager</p>
-      <a class="contact-phone" href="mailto:info@abelliostrings.com">info@abelliostrings.com</a>
-      <a class="contact-phone" href="tel:+01-808-372-7424">(808) 372-7424</a>
+      <h2 class="header first">Contact Us</h2>
+      <div id="contact-card">
+        <p id="contact-name" class="first">Kimberly Harrenstein</p>
+        <p id="contact-role">Manager</p>
+        <a id="contact-email" href="mailto:info@abelliostrings.com">info@abelliostrings.com</a>
+      </div>
+      <h2 class="header">Social</h2>
       <a class="contact-social" href="https://www.facebook.com/abelliostrings">
         <img id="contact-facebook" src="/images/facebook.svg" />
       </a>
-      <iframe class="contact-gigmasters" src="https://www.gigmasters.com/requestquote?type=portable&amp;memberId=112029"></iframe>
+      <h2 class="header">Request a Quote</h2>
+      <iframe id="contact-gigmasters" src="https://www.gigmasters.com/requestquote?type=portable&amp;memberId=112029"></iframe>
     </section>
   </main>
-  <footer></footer>
-  <script src="/vendor/scripts/jquery-3.2.1.min.js"></script>
+  <footer>
+    <p>&copy; 2017 Abellio Strings</p>
+  </footer>
   <script src="/vendor/scripts/page.js"></script>
+  <script src="/vendor/scripts/handlebars-v4.0.10.js"></script>
   <script src="/scripts/views/view.js"> </script>
-  <script src="/scripts/views/musicView.js"></script>
+  <script src="/scripts/views/homeView.js"></script>
+  <script src="/scripts/views/aboutView.js"></script>
+  <script src="/scripts/views/servicesView.js"></script>
+  <script src="/scripts/views/repertoireView.js"></script>
+  <script src="/scripts/views/samplesView.js"></script>
+  <script src="/scripts/views/contactView.js"></script>
   <script src="/scripts/controllers/homeController.js"></script>
   <script src="/scripts/controllers/aboutController.js"></script>
   <script src="/scripts/controllers/servicesController.js"></script>
-  <script src="/scripts/controllers/musicController.js"></script>
-  <script src="/scripts/controllers/mediaController.js"></script>
+  <script src="/scripts/controllers/repertoireController.js"></script>
+  <script src="/scripts/controllers/samplesController.js"></script>
   <script src="/scripts/controllers/contactController.js"></script>  
   <script src="/scripts/routes.js"></script>
 </body>

@@ -1,1222 +1,1222 @@
 [
   {
     "title": "Air on the G String from Suite # 3 in D Major",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Andante from Brandenburg Concerto #2 in F Major",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Arioso from Cantata #156",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Gigue from Suite # 3 in D Major",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Jesu, Joy of Man's Desiring from Cantata #147",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "March in D Major",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "My Heart Ever Faithful Aria from Cantata #68",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Rondeau from Orchestral Suite # 2 in B Minor",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Sheep May Safely Graze from Cantata #208",
-    "composer": "J.S. Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Variations on a Theme of Haydn, Sicilienne & St Anthony Chorale",
-    "composer": "Brahms",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Brahms, Johannes",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Trumpet Voluntary",
-    "composer": "Clarke",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Clarke, Jeremiah",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Allegro from Sonata in F Major, Op. 1 #11",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Allegro",
-    "composer": "Loeillet",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Loeillet, Jean-Baptiste",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Meditation from Thais",
-    "composer": "Massenet",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Massenet, Jules",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Eine Kleine Nachtmusik - Menuetto, Romanza",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Canon",
-    "composer": "Pachelbel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Pachelbel, Johann",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Andante from String Quartet in A minor, Op. 29 \"Rosamunde\"",
-    "composer": "Schubert",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Schubert, Franz",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Traumerei from Kinderscenen, Op. 15, #7",
-    "composer": "Schumann",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Schumann, Robert",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Presto from Sonatina in F Major",
-    "composer": "Telemann",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Telemann, Georg Philipp",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Vivace from Sonata in F Major for flute",
-    "composer": "Telemann",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Telemann, Georg Philipp",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Be Thou My Vision",
     "composer": "Traditional Irish Melody",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Classical" ]
+},
   {
     "title": "Bridal Chorus from Act III of Lohengrin",
-    "composer": "Wagner",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Wagner, Richard",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Minuet in G",
-    "composer": "Beethoven",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Beethoven, Ludwig van",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Ode to Joy from Symphony #9",
-    "composer": "Beethoven",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Beethoven, Ludwig van",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Amazing Grace",
     "composer": "Early American Melody",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Spiritual" ]
+},
   {
     "title": "Panis Angelicus from Messe Solonelle, Op. 12",
-    "composer": "Franck",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Franck, César",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Gavotte",
-    "composer": "Gossec",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Gossec, François-Joseph",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Tambourin",
-    "composer": "Gossec",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Gossec, François-Joseph",
+    "genres": [ "Classical" ]
+},
   {
     "title": "La Rejouissance from The Fireworks Music",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Largo from Xerxes",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Sarabane from Oboe Concerto in G Minor",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Air, Allegro, Andante, Bourree, Hornpipe from Water Music Suite",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Wedding March from A Midsummer Night's Dream",
-    "composer": "Mendelssohn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mendelssohn, Felix",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Rondeau from Sinfonies de Fanfares",
-    "composer": "Mendelssohn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mendelssohn, Felix",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Ave Verum Corpus from K. 618",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Rondo alla turca from Piano Sonata in A Major, K. 331",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Rondeau from Incidental Music to Abdelazer",
-    "composer": "Purcell",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Purcell, Henry",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Trumpet Tune",
-    "composer": "Purcell",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Purcell, Henry",
+    "genres": [ "Classical" ]
+},
   {
     "title": "When I Am Laid in Earth from Dido and Aeneas",
-    "composer": "Purcell",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Purcell, Henry",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Scheherazade Theme",
-    "composer": "Rimsky-Korsakov",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Rimsky-Korsakov, Nikolai",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Simple Gifts",
     "composer": "Shaker Hymn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Spiritual" ]
+},
   {
     "title": "Danza Pastorale from Violin Concerto in E Major, Op. 8 #1 - \"Spring\"",
-    "composer": "Vivaldi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Vivaldi, Antonio",
+    "genres": [ "Classical" ]
+},
   {
     "title": "H.M.S. Pinafore",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "I'm Called Little Buttercup",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "Never Mind The Why and Wherefore",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "The Mikado",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "As Some Day It May Happen",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "Willow, Tit-Willow",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "Patience",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "A Magnet Hung In a Hardware Shop",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "The Pirates of Penzance",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "I Am The Very Model of Modern Major-General",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "Poor Wandering One",
     "composer": "Gilbert and Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Theatre" ]
+},
   {
     "title": "Si Bheag, Si Mhor",
     "composer": "Irish Air",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "The Wearing of the Green",
     "composer": "Irish Air",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "Coleraine",
     "composer": "Irish Jig",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "Garry Owen",
     "composer": "Irish Jig",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "The Irish Washerwoman",
     "composer": "Irish Jig",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "Kesh Jig",
     "composer": "Irish Jig",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "Swallowtail Jig",
     "composer": "Irish Jig",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Irish" ]
+},
   {
     "title": "The Easy Winners",
-    "composer": "Joplin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Joplin, Scott",
+    "genres": [ "Rags" ]
+},
   {
     "title": "The Entertainer",
-    "composer": "Joplin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Joplin, Scott",
+    "genres": [ "Rags" ]
+},
   {
     "title": "Maple Leaf Rag",
-    "composer": "Joplin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Joplin, Scott",
+    "genres": [ "Rags" ]
+},
   {
     "title": "Pine Apple Rag",
-    "composer": "Joplin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Joplin, Scott",
+    "genres": [ "Rags" ]
+},
   {
     "title": "The Strenuous Life",
-    "composer": "Joplin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Joplin, Scott",
+    "genres": [ "Rags" ]
+},
   {
     "title": "The Kerry Dance",
-    "composer": "James Lyman Molloy",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Molloy, James Lyman",
+    "genres": [ "Irish" ]
+},
   {
     "title": "Alexander's Ragtime Band",
-    "composer": "Berlin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Berlin, Irving",
+    "genres": [ "Miscellaneous" ]
+},
   {
     "title": "Grande Valse Brilliante from Waltz in Eb Major, Op. 18",
-    "composer": "Chopin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Chopin, Frédéric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Valse Lente from Coppelia",
-    "composer": "Delibes",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Delibes, Léo",
+    "genres": [ "Classical" ]
+},
   {
     "title": "In the Good Old Summertime",
     "composer": "Evans & Shields",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Traditional Pop" ]
+},
   {
     "title": "Let Me Call You Sweetheart",
     "composer": "Friedman & Whitson",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Traditional Pop" ]
+},
   {
     "title": "Toot, Toot, Tootsie from Bombo",
     "composer": "Kahn, Erdman and Russo",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Musical" ]
+},
   {
     "title": "Merry Widow Waltz from The Merry Widow",
-    "composer": "Lehar",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Lehár, Franz",
+    "genres": [ "Waltz" ]
+},
   {
     "title": "Glow Worm from The Girl Behind the Counter",
     "composer": "Lincke & Robinson",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Traditional Pop" ]
+},
   {
     "title": "For Me and My Gal",
     "composer": "Meyer, Leslie & Goetz",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Traditional Pop" ]
+},
   {
     "title": "Artist's Life Kunstler-Leben, Op. 316",
-    "composer": "J. Strauss",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Strauss II, Johann",
+    "genres": [ "Waltz" ]
+},
   {
     "title": "Vienna Life Wiener Blut, Op. 354",
-    "composer": "J. Strauss",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Strauss II, Johann",
+    "genres": [ "Waltz" ]
+},
   {
     "title": "You and You from Die Fledermaus, Op. 367",
-    "composer": "J. Strauss",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Strauss II, Johann",
+    "genres": [ "Waltz" ]
+},
   {
     "title": "Waltz from Album for the Young, Op. 39 #8",
-    "composer": "Tschaikovsky",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Tchaikovsky, Pyotr Ilyich",
+    "genres": [ "Waltz" ]
+},
   {
     "title": "The Skaters Waltz Les Patineurs, Op. 183",
     "composer": "Waldteufel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Waltz" ]
+},
   {
     "title": "The Band Played On",
     "composer": "Ward & Palmer",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Allegretto from Die Fledermaus",
-    "composer": "Strauss",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Strauss, Richard",
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Alleluia from Exsultate, Jubilate",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Arrival of the Queen of Sheba from Solomon",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Ave Maria",
-    "composer": "Schubert",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Schubert, Franz",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Badinerie from Suite #2 in B minor",
-    "composer": "Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Bist du Bei Mir",
-    "composer": "Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Capriccio #24",
-    "composer": "Paganini",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Paganini, Niccolò",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Clair de Lune",
-    "composer": "Debussy",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Debussy, Claude",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Drinking Song from La Traviata",
-    "composer": "Verdi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Verdi, Giuseppe",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Etude - E Major Op. 10 #3",
-    "composer": "Chopin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Chopin, Frédéric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Flower Duet from Lakme",
-    "composer": "Delibes",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Delibes, Léo",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Largo \"Winter\" from the Four Seasons",
-    "composer": "Vivaldi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Vivaldi, Antonio",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Mighty Fortress Is Our God",
-    "composer": "Luther",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Luther, Martin",
+    "genres": [ "Spiritual" ]
+},
   {
     "title": "Minuet from Don Giovanni",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Minuet from Piano Sonata #20 in G Major",
-    "composer": "Beethoven",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Beethoven, Ludwig van",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Minuet",
-    "composer": "Boccherini",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Boccherini, Luigi",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Onward Christian Soldiers",
-    "composer": "Sullivan",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Sullivan, Arthur",
+    "genres": [ "Spiritual" ]
+},
   {
     "title": "Polka from Die Fledermaus",
-    "composer": "Strauss",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Strauss, Richard",
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Presto",
-    "composer": "Haydn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Haydn, Joseph",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Sempre Libera from La Traviata",
-    "composer": "Verdi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Verdi, Giuseppe",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Slavonic Dance #2",
-    "composer": "Dvorak",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Dvořák, Antonín",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Theme from Jupiter from The Planets",
-    "composer": "Holst",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Holst, Gustav",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Valse Allemande from Carnaval",
-    "composer": "Schumann",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Schumann, Robert",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Waltz from Sleeping Beauty",
-    "composer": "Tschaikovsky",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Tchaikovsky, Pyotr Ilyich",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Adagio from Violin Sonata in G Minor",
-    "composer": "Corelli",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Corelli, Arcangelo",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Allegro \"Spring\" from the Four Seasons\"",
-    "composer": "Vivaldi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Vivaldi, Antonio",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Children's Prayer",
-    "composer": "Humperdinck",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Humperdinck, Engelbert",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Dance of the Hours",
-    "composer": "Ponchielli",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Ponchielli, Amilcare",
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Fur Elise",
-    "composer": "Beethoven",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Beethoven, Ludwig van",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Galopp from Orpheus in the Underworld",
-    "composer": "Offenbach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Offenbach, Jacques",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Gavotte from the Holberg Suite",
-    "composer": "Grieg",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Grieg, Edvard",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Habanera from Carmen",
-    "composer": "Bizet",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bizet, Georges",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Hungarian Dance #5",
-    "composer": "Brahms",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Brahms, Johannes",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Intermezzo from Cavalliera Rusticana",
-    "composer": "Mascagni",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mascagni, Pietro",
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Largo from Trio Sonata in D RV 93",
-    "composer": "Vivaldi",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Vivaldi, Antonio",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Menuet in G",
-    "composer": "Paderewski",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Paderewski, Ignacy Jan",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Minuet",
-    "composer": "Mozart",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mozart, Wolfgang Amadeus",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Nocturne from A Midsummer Night's Dream",
-    "composer": "Mendelssohn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mendelssohn, Felix",
+    "genres": [ "Classical" ]
+},
   {
     "title": "On Wings of Song",
-    "composer": "Mendelssohn",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Mendelssohn, Felix",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Tarantella",
     "composer": "Traditional",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "genres": [ "Classical/Fiddle/Rags" ]
+},
   {
     "title": "Theme from Polovetzian Dances from Priince Igor",
-    "composer": "Borodin",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Borodin, Alexander",
+    "genres": [ "Classical" ]
+},
   {
     "title": "The Trout from the Trout Quintet",
-    "composer": "Schubert",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Schubert, Franz",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Wachet Auf",
-    "composer": "Bach",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Bach, Johann Sebastian",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Waltz from Swan Lake",
-    "composer": "Tschaikovsky",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Tchaikovsky, Pyotr Ilyich",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Water Music Suite in G: Air",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Water Music Suite in G: Allegro",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Water Music Suite in G: Menuet",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "Water Music Suite in G: Rigaudon",
-    "composer": "Handel",
-    "genre": "Classical/Fiddle/Rags"
-  },
+    "composer": "Handel, George Frideric",
+    "genres": [ "Classical" ]
+},
   {
     "title": "A Thousand Years",
     "composer": "Christina Perri",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Across The Universe",
     "composer": "The Beatles",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Africa",
     "composer": "Toto",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Ain't Misbehavin'",
     "composer": "Thomas \"Fats\" Waller & Harry Brooks",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Jazz" ]
+},
   {
     "title": "All About That Bass",
     "composer": "Meghan Trainor",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "All Apologies",
     "composer": "Nirvana",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "All I Wanna Do",
     "composer": "Sheryl Crow",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "All of Me",
     "composer": "John Legend",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "All You Need is Love",
     "composer": "The Beatles",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "American Idiot",
     "composer": "Green Day",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "As Time Goes By from \"Casablanca\"",
     "composer": "Herman Hupfeld",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "At Last",
     "composer": "Etta James",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Baby, It's Cold Outside",
     "composer": "Frank Losser",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Batman Theme",
     "composer": "Danny Elfman",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Believe from \"Polar Express\"",
     "composer": "Alan Silvestri & Glen Ballard",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Bibbidi-Bobbidi-Boo from \"Cinderella\"",
     "composer": "Mack David, Al Hoffman, & Jerry Livingston",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Bittersweet Symphony",
     "composer": "The Verve",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Boogie Woogie Bugle Boy",
     "composer": "The Andrews Sisters",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Boogie Wonderland",
     "composer": "Earth, Wind, & Fire",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Bridge Over Troubled Water",
     "composer": "Simon & Garfunkel",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "California Dreamin'",
     "composer": "The Mamas and the Papas",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
-    "title": "Can You Read My Mind?",
+    "title": "Can You Read My Mind? from \"Superman: The Movie\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
-    "title": "Can't Fight The Moonlight from \"Cayote Ugly\"",
+    "title": "Can't Fight The Moonlight from \"Coyote Ugly\"",
     "composer": "Diane Warren",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
-    "title": "Can’t Help Falling in Love",
+    "title": "Can't Help Falling in Love",
     "composer": "Elvis Presley",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Cantina Band from \"Star Wars\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Captivate Us",
     "composer": "Watermark",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Chasing Cars",
     "composer": "Snow Patrol",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Clocks",
     "composer": "Coldplay",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Crazy Little Thing Called Love",
     "composer": "Queen",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Crazy In Love",
     "composer": "Beyoncé",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Don't Stop Believin'",
     "composer": "Journey",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Edelweiss from \"The Sound of Music\"",
     "composer": "Rodgers & Hammerstein",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Firework",
     "composer": "Katy Perry",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Foxey Lady",
     "composer": "Jimi Hendrix",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Float On",
     "composer": "Modest Mouse",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Give It To Me Baby",
     "composer": "Rick James",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Glycerine",
     "composer": "Bush",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "God Only Knows",
     "composer": "The Beach Boys",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Gonna Fly Now",
     "composer": "Bill Conti",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Happy",
     "composer": "Pharrell Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Happy Together",
     "composer": "The Turtles",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Hedwig's Theme from \"Harry Potter and the Sorcerer's Stone\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Hey Jude",
     "composer": "The Beatles",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Hey, Soul Sister",
     "composer": "Train",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Hips Don't Lie",
     "composer": "Shakira",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Hoppípolla",
     "composer": "Sigur Rós",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Hound Dog",
     "composer": "Elvis Presley",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "House of the Rising Sun",
     "composer": "The Animals",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "How Long Will I Love You",
     "composer": "Ellie Goulding",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "How The West Was Won- Main Title",
     "composer": "Alfred Newman",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "I Swear",
     "composer": "All 4 One",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "If I only Had A Brain from \"Wizard of Oz\"",
     "composer": "Harold Arlen",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "I'll Be There",
     "composer": "The Jackson 5",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "I'll Be There For You from \"Friends\"",
     "composer": "Michael Skloff",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "I'm Yours",
     "composer": "Jason Mraz",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Imperial March from \"Star Wars: The Empire Strikes Back\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "James Bond Theme",
     "composer": "Monty Norman",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Just My Imagination",
     "composer": "The Temptations",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Kiss Me",
     "composer": "Sixpence None The Richer",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Let's Dance",
     "composer": "David Bowie",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Let's Stay Together",
     "composer": "Al Green",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "L-O-V-E",
     "composer": "Nat King Cole",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Love On Top",
     "composer": "Beyoncé",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Love Story",
     "composer": "Taylor Swift",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Mack The Knife",
     "composer": "Bobby Darin",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "The Magnificent Seven",
     "composer": "Elmer Bernstein",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Mama Mia",
     "composer": "ABBA",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Man in the Mirror",
     "composer": "Michael Jackson",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Marry You",
     "composer": "Bruno Mars",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Moon River from \"Breakfast at Tiffany's\"",
     "composer": "Henry Mancini",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Moves Like Jagger",
     "composer": "Maroon 5",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "The Muppet Show Theme",
     "composer": "Jim Henson",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "My Heart, Your Home",
     "composer": "Watermark",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Nights in White Satin",
     "composer": "The Moody Blues",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Nimbus 2000 from \"Harry Potter and the Sorcerer's Stone\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Now And Forever",
     "composer": "Richard Marx",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Old Time Rock And Roll",
     "composer": "Bob Seger",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Piano Man",
     "composer": "Billy Joel",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "The Pink Panther",
     "composer": "Henry Mancini",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Raiders March from \"Raiders of the Lost Ark\"",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Rather Be",
     "composer": "Clean Bandit",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "River Flows In You",
     "composer": "Yiruma",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Rock With You",
     "composer": "Michael Jackson",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Rolling in the Deep",
     "composer": "Adele",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Royals",
     "composer": "Lorde",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sailing",
     "composer": "Christopher Cross",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "September",
     "composer": "Earth, Wind, & Fire",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sing, Sing, Sing",
     "composer": "Benny Goodman",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sloop John B",
     "composer": "The Beach Boys",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sounds of Silence",
     "composer": "Simon & Garfunkel",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Stand By Me",
     "composer": "Ben King",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Star Wars",
     "composer": "John Williams",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Survivor",
     "composer": "Destiny's Child",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sweet Child of Mine",
     "composer": "Guns N' Roses",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Sweet Dreams",
     "composer": "Eurythmics",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Take My Breath Away",
     "composer": "Berlin",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Take On Me",
     "composer": "A-Ha",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Theme From \"Ice Castles\"",
     "composer": "Marvin Hamlisch",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
-    "title": "Theme From Psycho",
+    "title": "Theme From \"Psycho\"",
     "composer": "Bernard Herrmann",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "Thinking Out Loud",
     "composer": "Ed Sheeran",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "This Is It!",
     "composer": "Mack David & Jerry Livingston",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Time After Time",
     "composer": "Cyndi Lauper",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Titanium",
     "composer": "David Guetta",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Truly Madly Deeply",
     "composer": "Savage Garden",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Turn The Beat Around",
     "composer": "Vicki Sue Robinson",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Viva La Vida",
     "composer": "Coldplay",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Waterfalls",
     "composer": "TLC",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "What a Wonderful World",
     "composer": "Louis Armstrong",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "What Is Love",
     "composer": "Haddaway",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Yoü and I",
     "composer": "Lady Gaga",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "You Raise Me Up",
     "composer": "Josh Groban",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "Your Song",
     "composer": "Elton John",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "You're Just What I Needed",
     "composer": "The Cars",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "Popular" ]
+},
   {
     "title": "You're The One That I Want from \"Grease\"",
     "composer": "John Farrar",
-    "genre": "Pop/Rock/Movie/etc."
-  },
+    "genres": [ "TV & Movies" ]
+},
   {
     "title": "You've Got A Friend In Me from \"Toy Story\"",
     "composer": "Randy Newman",
-    "genre": "Pop/Rock/Movie/etc."
-  }
+    "genres": [ "TV & Movies" ]
+}
 ]

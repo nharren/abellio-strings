@@ -1,11 +1,18 @@
 header {
+  width: 100%;
   height: 42%;
 }
 
 main {
-  height: 48%;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1;
+  min-height: 48%;
+  width: 100%;
 }
 
 footer {
   height: 10%;
+  width: 100%;
+  text-align: center;
 }

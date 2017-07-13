@@ -27,20 +27,19 @@ nav a {
 }
 
 section {
-  transition: opacity 150ms ease-out;
-  height: 100%;
+  transition: opacity 120ms linear;
+  width: 100%;
 }
 
 #home {
-  text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 #home-group-photo {
-  background: black url('/images/group-photo3.jpg') center no-repeat;
+  background: url('/images/group-photo3.jpg') center no-repeat;
   background-size: contain;
-  margin: 0 auto;
   height: 100%;
-  width: 100%;
 }
 
 #about {
@@ -48,13 +47,6 @@ section {
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: flex-start;
-}
-
-.about-text {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 1em;
 }
 
 .profile {
@@ -87,18 +79,66 @@ section {
   text-align: center;
 }
 
-#services-text {
-  padding: 10px;
-  margin: 0 20% 20px 20%;
-  line-height: 1.5em;
-  border-radius: 5px;
+#repertoire-filters {
+  width: 100%;
   text-align: center;
 }
 
-.services-header {
-  font-family: 'Unica One';
-  font-size: 3vh;
-  font-weight: bold;
+.filter {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.filter-selection {
+  user-select: none;
+  padding: 10px;
+}
+
+.filter-dropdown {
+  display: none;
+  overflow-y: overlay;
+  max-height: 300px;
+  width: 250px;
+}
+
+.filter-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  cursor: pointer;
+}
+
+.repertoire-item {
+  text-align: center;
+  padding: 15px;
+}
+
+
+.repertoire-item * {
+  padding: 3px; 
+}
+
+.repertoire-genre {
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  font-size: 1.75vh;
+  padding: 4px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.repertoire-genres {
+  margin-top: 3px;
+}
+
+.header {
   text-align: center;
   margin-top: 35px;
   margin-bottom: 10px;
@@ -109,19 +149,6 @@ section {
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: center;
-}
-
-.media-header {
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.separator {
-  height: 2px;
-  width: 80%;
-  background: lightgray;
-  margin: 10px auto 20px auto;
-  text-align: center;
 }
 
 .media-video, .media-audio {
@@ -135,22 +162,20 @@ section {
   padding: 0;
 }
 
-.contact-name {
-  padding: 5px;
+#contact p, #contact a {
   font-size: 1.25em;
+  display: block;
+  padding: 4px;
 }
 
-.contact-phone {
-  display: block;
-  font-size: 1.25em;
-  margin-top: 3px;
+#contact-card {
+  padding: 15px;
 }
 
 .contact-social {
   display: block;
-  width: 1.5em;
-  margin: 15px auto 0 auto;
-  font-size: 1.5em;
+  width: 1.25em;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -158,10 +183,15 @@ section {
   text-align: center;
 }
 
-#contact iframe {
-  padding-top: 50px;
+#contact-gigmasters {
   max-width: 991px;
-  border:0;
-  width:90vw;
-  height:2000px;
+  border: 0;
+  width: 90vw;
+  height: 2000px;
+}
+
+footer p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

@@ -1,15 +1,19 @@
 .hidden {
   transition: none;
   opacity: 0; 
-  height: 0;
+  height: 0 !important;
   padding: 0;
   overflow: hidden;
 }
 
-.ascend:after {
-  content: '▴'
+.first {
+  margin-top: 0 !important;
 }
 
-.descend:after {
-  content: '▾'
-}
+.notice {
+  padding: 10px;
+  margin: 35px 20% 20px 20%;
+  line-height: 1.5em;
+  border-radius: 5px;
+  text-align: center;
+} 
