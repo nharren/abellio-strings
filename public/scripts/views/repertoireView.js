@@ -4,6 +4,7 @@ var app = app || {};
 
 (function(module) {
   let repertoireView = {};
+  let data;
 
   repertoireView.initialized = false;
 
@@ -33,7 +34,7 @@ var app = app || {};
 
   function processDataResponse(callback, event) {
     if (this.readyState == 4 && this.status == 200) {
-      let data = JSON.parse(this.responseText);
+      data = JSON.parse(this.responseText);
       callback(data);
     }
   }
@@ -71,8 +72,10 @@ var app = app || {};
       return;
     }
 
+    resetFilterSelections();
+
     let filterSelection = document.getElementById(`${name}-filter-selection`);
-    filterSelection.innerText = event.target.innerText;
+    filterSelection.innerText = event.target.textContent;
     filterSelection.style.display = 'block';
 
     let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
@@ -81,8 +84,11 @@ var app = app || {};
     let repertoireList = document.getElementById('repertoire-list');
     repertoireList.innerHTML = '';
 
-    let callback = filterBy.bind(null, name, filterItem.innerHTML);
-    loadData(callback);
+    if (filterItem === filterDropdown.firstElementChild) {
+      populateList(data);
+    } else {
+      filterBy(name, filterItem.textContent);
+    }
 
     event.preventDefault();
   }
@@ -91,11 +97,22 @@ var app = app || {};
     return element.classList.contains('filter-item');
   }
 
-  function filterBy(name, value, dataItems) {
+  function resetFilterSelections() {
+    let filters = document.getElementsByClassName('filter');
+
+    for (let i = 0; i < filters.length; i++) {
+      let filter = filters[i];
+      let filterSelection = filter.querySelector('.filter-selection');
+      let firstFilterItem = filter.querySelector(`.filter-dropdown .filter-item`);
+      filterSelection.innerText = firstFilterItem.textContent;
+    }
+  }
+
+  function filterBy(name, value) {
     let filteredData = [];
 
-    for (let i = 0; i < dataItems.length; i++) {
-      let dataItem = dataItems[i];
+    for (let i = 0; i < data.length; i++) {
+      let dataItem = data[i];
 
       if (name === 'composer') {
         let match = dataItem.composer === value;
