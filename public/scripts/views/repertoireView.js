@@ -136,7 +136,7 @@ var app = app || {};
     data.sort(sortByComposer);
     data = data.map(getComposer);
     data = getDistinct(data);
-    let toHtml = compileTemplate('composer-filter-item-template');
+    let toHtml = compileTemplate('filter-item-template');
     let itemHtmlArray = data.map(toHtml);
     let list = document.getElementById('composer-filter-dropdown');
     let itemsHtml = itemHtmlArray.join('');
@@ -165,7 +165,7 @@ var app = app || {};
   function populateGenreFilter(data) {
     data = getGenres(data);
     data = getDistinct(data);
-    let toHtml = compileTemplate('genre-filter-item-template');
+    let toHtml = compileTemplate('filter-item-template');
     let itemHtmlArray = data.map(toHtml);
     let list = document.getElementById('genre-filter-dropdown');
     let itemsHtml = itemHtmlArray.join('');

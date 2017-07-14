@@ -18,7 +18,7 @@
 
 nav {
   text-align: center;
-  margin-top: 2vh;
+  margin: 2vh 0;
 }
 
 nav a {
@@ -29,18 +29,18 @@ nav a {
 section {
   transition: opacity 120ms linear;
   width: 100%;
-  height: 100%;
 }
 
 #home {
-  height: 100%;
   width: 100%;
+  text-align: center;
 }
 
 #home-group-photo {
-  background: url('/images/group-photo3.jpg') center no-repeat;
-  background-size: contain;
-  height: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 940px;
+  width: 100%;
 }
 
 #about {
@@ -54,7 +54,6 @@ section {
   padding: 15px;
   min-width: 300px;
   flex: 1;
-  font-size: 1.5em;
 }
 
 .profile * {
@@ -62,17 +61,19 @@ section {
 }
 
 .profile-name {
-  padding: 5px 5px 0 5px;
+  padding: 3px;
+  font-size: 2.5vh;
 }
 
 .profile-instrument {
-  font-size: 0.75em;
-  padding: 8px 0 15px 0;
+  padding: 3px;
+  margin-bottom: 15px;
 }
 
 .profile-image {
   height: 400px;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
 }
 
@@ -101,11 +102,11 @@ section {
 }
 
 .filter-dropdown {
-  overflow-y: overlay;
-  height: 0;
+  transition: all 300ms;
+  overflow: hidden;
+  height: 0px;
   max-height: 36px;
   width: 250px;
-  transition: max-height 150ms; 
 }
 
 .filter-item {
@@ -152,8 +153,16 @@ section {
   justify-content: center;
 }
 
+.media-container p {
+  margin: 10px 0;
+}
+
+.media-border {
+  text-align: center;
+}
+
 .media-video, .media-audio {
-  padding: 30px;
+  margin: 0 30px 30px 30px;
   min-width: 420px;
   text-align: center;
 }
@@ -164,35 +173,36 @@ section {
 }
 
 #contact p, #contact a {
-  font-size: 1.25em;
   display: block;
   padding: 4px;
 }
 
 #contact-card {
-  padding: 15px;
+  padding: 15px 30px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 5px;
 }
 
-.contact-social {
+/* .contact-social {
   display: block;
   width: 1.25em;
   margin: 0 auto;
   text-align: center;
-}
+} */
 
 #contact a div {
   text-align: center;
 }
 
 #contact-gigmasters {
-  max-width: 991px;
+  max-width: 600px;
   border: 0;
-  width: 90vw;
+  width: 100%;
+  padding: 30px 0;
   height: 2000px;
 }
 
 footer p {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 20px 0;
 }

@@ -4,7 +4,6 @@
   height: 0 !important;
   padding: 0;
   overflow: hidden;
-  display: none;
 }
 
 .first {
@@ -20,6 +19,7 @@
 }
 
 .open {
-  height: auto;
   max-height: 350px;
+  height: auto;
+  overflow-y: overlay;
 }
