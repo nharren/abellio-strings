@@ -1,27 +1,20 @@
 html, body {
   height: 100%;
-  overflow: overlay;
+  overflow-y: overlay;
 }
 
 table {
   margin: 0 auto;
 }
 
-table, th, td {
-  border: 1px solid;
-}
-
 th, td {
   text-align: center;
-  padding: 15px;
   vertical-align: middle;
-}
-
-th {
-  font-weight: bold;
+  padding: 0.9375rem;
 }
 
 video, audio {
   display: block;
-  width: 420px;
+  width: 100vw; /* Pushes margins out of viewport */
+  max-width: 640px;
 }

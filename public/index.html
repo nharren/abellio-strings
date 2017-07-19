@@ -3,6 +3,7 @@
 
 <head>
   <title>Abellio Strings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="/vendor/styles/reset.css">
   <link rel="stylesheet" href="/styles/base.css">
@@ -18,17 +19,15 @@
     </div>
   </script>
 
-  <script id="filter-item-template" type="text/x-handlebars-template">
-    <div class="filter-item">{{this}}</div>
+  <script id="filter-option-template" type="text/x-handlebars-template">
+    <div class="filter-option">{{this}}</div>
   </script>
 </head>
 
 <body>
   <header>
-    <div class="logo-container">
-      <img id="logo" src="/images/logo.svg" />
-    </div>
-    <h1 class="title">Abellio Strings</h1>
+    <img id="logo" src="/images/logo.svg" />
+    <h1 id="title">Abellio Strings</h1>
     <nav>
       <a id="menu-home" href="/">Home</a>
       <a id="menu-about" href="/about">About</a>
@@ -40,29 +39,32 @@
   </header>
   <main>
     <section id="home">
-      <img id="home-group-photo" src="/images/group-photo3.jpg">
+      <img id="group-photo" src="/images/group-photo3.jpg">
     </section>
     <section id="about">
-      <p class="notice first">We are a group of professionally-trained musicians based in Seattle. We can play any style of music for any event.</p>
-      <div class="profile">
-        <p class="profile-name">Kimmy Harrenstein</p>
-        <p class="profile-instrument">Violin</p>
-        <div class="profile-image" style="background-image: url(images/kimmy.jpg)"></div>
-      </div>
-      <div class="profile">
-        <p class="profile-name">Brian Jankanish</p>
-        <p class="profile-instrument">Violin/Viola</p>
-        <div class="profile-image" style="background-image: url(images/brian.jpg)"></div>
-      </div>
-      <div class="profile">
-        <p class="profile-name">Kelly Moore</p>
-        <p class="profile-instrument">Violin/Viola</p>
-        <div class="profile-image" style="background-image: url(images/kelly.jpg)"></div>
-      </div>
-      <div class="profile">
-        <p class="profile-name">Nathan Harrenstein</p>
-        <p class="profile-instrument">Cello</p>
-        <div class="profile-image" style="background-image: url(images/nathan.jpg)"></div>
+      <p id="about-text">We are a group of professional musicians based in Seattle, Washington. We play a variety of musical styles, from classical to pop and everything in-between. We play for all types of events, including weddings, parties, festivals, studio recordings, concerts, shows, and tours.</p>
+      <div class="header">Musicians</div>
+      <div id="musicians">
+        <div class="musician">
+          <p class="musician-name">Kimmy Harrenstein</p>
+          <p class="musician-instrument">Violin</p>
+          <div class="musician-image" style="background-image: url(images/kimmy.jpg)"></div>
+        </div>
+        <div class="musician">
+          <p class="musician-name">Brian Jankanish</p>
+          <p class="musician-instrument">Violin/Viola</p>
+          <div class="musician-image" style="background-image: url(images/brian.jpg)"></div>
+        </div>
+        <div class="musician">
+          <p class="musician-name">Kelly Moore</p>
+          <p class="musician-instrument">Violin/Viola</p>
+          <div class="musician-image" style="background-image: url(images/kelly.jpg)"></div>
+        </div>
+        <div class="musician">
+          <p class="musician-name">Nathan Harrenstein</p>
+          <p class="musician-instrument">Cello</p>
+          <div class="musician-image" style="background-image: url(images/nathan.jpg)"></div>
+        </div>
       </div>
     </section>
     <section id="services">
@@ -123,20 +125,20 @@
           </tr>
         </tbody>
       </table>
-      <p class="notice">Please note that the amplification is for our instruments only.</p>
+      <p class="notice">Please note that the amplification is for instrument use only.</p>
     </section>
     <section id="repertoire">
       <div id="repertoire-filters">
         <span id="composer-filter" class="filter">
           <div id="composer-filter-selection" class="filter-selection">&mdash; Composer &mdash;</div>
           <div id="composer-filter-dropdown" class="filter-dropdown">
-            <div class="filter-item">&mdash; Composer &mdash;</div>
+            <div class="filter-option">&mdash; Composer &mdash;</div>
           </div>
         </span>
         <span id="genre-filter" class="filter">
             <div id="genre-filter-selection" class="filter-selection">&mdash; Genre &mdash;</div>
             <div id="genre-filter-dropdown" class="filter-dropdown">
-              <div class="filter-item">&mdash; Genre &mdash;</div>
+              <div class="filter-option">&mdash; Genre &mdash;</div>
             </div>
           </div>
       </span>
@@ -144,71 +146,57 @@
     </section>
     <section id="samples">
       <h2 class="header first">Duos</h2>
-      <div class="media-container">
-        <div class="media-video first">
-          <div class="media-border">
-            <video controls="controls">
+      <div class="samples-container">
+        <div class="sample-item first">
+          <video controls="controls">
               <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/136898.mp4" type="video/mp4"> Your browser does not support the video tag.
-            </video>
-          </div>
+          </video>
           <p>The Skater's Waltz</p>
         </div>
-        <div class="media-video">
-          <div class="media-border">
-            <video controls="controls">
+        <div class="sample-item">
+          <video controls="controls">
               <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137706.mp4" type="video/mp4"> Your browser does not support the video tag.
-            </video>
-          </div>
+          </video>
           <p>Maple Leaf Rag</p>
         </div>
-        <div class="media-video">
-          <div class="media-border">
-            <video controls="controls">
-              <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137707.mp4" type="video/mp4"> Your browser does not support the video tag.
-            </video>
-          </div>
+        <div class="sample-item">
+          <video controls="controls">
+            <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137707.mp4" type="video/mp4"> Your browser does not support the video tag.
+          </video>
           <p>For Me and My Gal</p>
         </div>
-        <div class="media-video">
-          <div class="media-border">
-            <video controls="controls">
-              <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137708.mp4" type="video/mp4"> Your browser does not support the video tag.
-            </video>
-          </div>
+        <div class="sample-item">
+          <video controls="controls">
+            <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137708.mp4" type="video/mp4"> Your browser does not support the video tag.
+          </video>
           <p>Swallowtail Jig</p>
         </div>
-        <div class="media-video">
-          <div class="media-border">
-            <video controls="controls">
-              <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137709.mp4" type="video/mp4"> Your browser does not support the video tag.
-            </video>
-          </div>
+        <div class="sample-item">
+          <video controls="controls">
+            <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/videos/sd/137709.mp4" type="video/mp4"> Your browser does not support the video tag.
+          </video>
           <p>Chicken Reel</p>
         </div>
       </div>
       <h2 class="header">Trios</h2>
-      <div class="media-container">
-        <div class="media-audio first">
-          <div class="media-border">
-            <audio controls="controls">
-              <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/audio/148072.mp3" type="audio/mpeg"> Your browser does not support the audio element.
-            </audio>
-          </div>
+      <div class="samples-container">
+        <div class="sample-item first">
+          <audio controls="controls">
+            <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/audio/148072.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+          </audio>
           <p>Can You Feel The Love Tonight</p>
         </div>
-        <div class="media-audio">
-          <div class="media-border">
-            <audio controls="controls">
-              <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/audio/148074.mp3" type="audio/mpeg"> Your browser does not support the audio element.
-            </audio>
-          </div>
+        <div class="sample-item">
+          <audio controls="controls">
+            <source src="https://d3ew4rh7xxgmkq.cloudfront.net/performer/112029/audio/148074.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+          </audio>
           <p>What a Wonderful World</p>
         </div>
       </div>
     </section>
     <section id="contact">
       <div id="contact-card">
-        <p id="contact-name" class="first">Kimberly Harrenstein</p>
+        <p id="contact-name">Kimberly Harrenstein</p>
         <p id="contact-role">Manager</p>
         <a id="contact-email" href="mailto:info@abelliostrings.com">info@abelliostrings.com</a>
       </div>

@@ -1,208 +1,159 @@
-.logo-container {
-  width: 100%;
-  text-align: center;
-}
-
 #logo {
-  height: 23vh;
-  margin-top: 2vh;
+  margin: 0.9375rem auto 0 auto;
+  height: 10rem;
+  width: 100%
 }
 
-.title {
-  width: 100%;
-  display: block;
+#title {
+  font-size: 2.5rem;
+  margin-top: 0.625rem;
   text-align: center;
-  font-size: 6vh;
-  margin-top: 0.5vh;
+  width: 100%;
 }
 
 nav {
+  margin-top: 0.9375rem;
   text-align: center;
-  margin: 2vh 0;
 }
 
 nav a {
   display: inline-block;
-  padding: 15px;
+  padding: 0.625rem;
 }
 
 section {
+  margin-top: 1.563rem;
   transition: opacity 120ms linear;
-  width: 100%;
-}
-
-#home {
   width: 100%;
   text-align: center;
 }
 
-#home-group-photo {
+#home {
+  padding-top: 0;
+}
+
+#group-photo {
   display: block;
   margin: 0 auto;
   max-width: 940px;
   width: 100%;
 }
 
-#about {
-  display: flex;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-  justify-content: flex-start;
+#about .header {
+  margin-bottom: 0;
+  width: 100%;
 }
 
-.profile {
-  padding: 15px;
-  min-width: 300px;
-  flex: 1;
-}
-
-.profile * {
+#about-text {
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 0.625rem;
   text-align: center;
 }
 
-.profile-name {
-  padding: 3px;
-  font-size: 2.5vh;
+.header {
+  text-align: center;
+  margin-top: 1.875rem;
+  margin-bottom: 0.9375rem;
 }
 
-.profile-instrument {
-  padding: 3px;
-  margin-bottom: 15px;
+#musicians {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.profile-image {
+.musician {
+  flex: 1;
+  min-width: 300px;
+  padding: 0.9375rem;
+  text-align: center;
+}
+
+.musician-name {
+  font-size: 1.25rem;
+}
+
+.musician-instrument {
+  margin-top: 0.3125rem;
+}
+
+.musician-image {
   height: 400px;
+  margin-top: 0.9375rem;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
-#services {
-  text-align: center;
-}
-
-#repertoire-filters {
-  width: 100%;
-  text-align: center;
-}
-
 .filter {
-  display: inline-block;
-  position: relative;
-  width: 250px;
-  text-align: center;
-  margin: 0 15px 15px 15px;
   cursor: pointer;
+  display: inline-block;
+  margin: 0 0.9375rem 0.9375rem 0.9375rem;
   vertical-align: top;
+  width: 22.5rem;
 }
 
 .filter-selection {
-  user-select: none;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .filter-dropdown {
-  transition: all 300ms;
+  height: 0;
+  max-height: 2.25rem;
   overflow: hidden;
-  height: 0px;
-  max-height: 36px;
-  width: 250px;
+  transition: max-height 300ms;
 }
 
-.filter-item {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.filter-item:hover {
-  cursor: pointer;
+.filter-option {
+  padding: 0.625rem;
 }
 
 .repertoire-item {
   text-align: center;
-  padding: 15px;
+  padding: 0.625rem;
 }
 
 .repertoire-item * {
-  padding: 3px; 
+  padding: 0.1875rem; 
 }
 
-.repertoire-genre {
-  background-color: rgba(0, 0, 0, 0.35);
-  color: white;
-  font-size: 1.75vh;
-  padding: 4px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-.repertoire-genres {
-  margin-top: 3px;
-}
-
-.header {
-  text-align: center;
-  margin-top: 35px;
-  margin-bottom: 10px;
-}
-
-.media-container {
+.samples-container {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: center;
 }
 
-.media-container p {
-  margin: 10px 0;
-}
+.sample-item {
+  margin: 0 0.9375rem 0.9375rem 0.9375rem;
+} 
 
-.media-border {
-  text-align: center;
-}
-
-.media-video, .media-audio {
-  margin: 0 30px 30px 30px;
-  min-width: 420px;
-  text-align: center;
-}
-
-#contact {
-  text-align: center;
-  padding: 0;
-}
-
-#contact p, #contact a {
-  display: block;
-  padding: 4px;
+.samples-container p {
+  margin: 0.9375rem 0;
 }
 
 #contact-card {
-  padding: 15px 30px;
+  padding: 0.9375rem 0;
   display: inline-block;
-  margin: auto;
-  border-radius: 5px;
+  width: 100%;
 }
 
-/* .contact-social {
-  display: block;
-  width: 1.25em;
-  margin: 0 auto;
-  text-align: center;
-} */
+#contact p, #contact a {
+  padding: 0.3125rem;
+}
 
-#contact a div {
-  text-align: center;
+#contact a {
+  display: block;
 }
 
 #contact-gigmasters {
-  max-width: 600px;
-  border: 0;
   width: 100%;
-  padding: 30px 0;
+  max-width: 990px;
+  padding: 1.875rem 0;
   height: 2000px;
 }
 
 footer p {
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }

@@ -16,15 +16,61 @@ var app = app || {};
     }
     
     handleFilter('composer');
-    handleFilterItems('composer');
     handleFilter('genre');
-    handleFilterItems('genre');
 
     repertoireView.initialized = true;
     
     loadData(populateItems);
   }
   
+  function handleFilter(name) {
+    let selection = document.getElementById(`${name}-filter-selection`);
+    let selectionHandler = displayFilterDropdown.bind(selection, name);
+    selection.addEventListener('mousedown', selectionHandler);
+    handleFilterItems(name);
+  }
+
+  function displayFilterDropdown(name, event) {
+    this.style.display = 'none';
+    let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
+    filterDropdown.classList.add('open');
+    event.preventDefault();
+  }
+
+  function handleFilterItems(name) {
+    let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
+    let filterOptionHandler = selectFilterItem.bind(null, name);
+    filterDropdown.addEventListener('mousedown', filterOptionHandler);
+  }
+
+  function selectFilterItem(name, event) {
+    let filterOption = event.target;
+
+    if (notFilterItem(filterOption)) {
+      return;
+    }
+
+    resetFilterSelections();
+
+    let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
+    filterDropdown.classList.remove('open');
+    
+    let filterSelection = document.getElementById(`${name}-filter-selection`);
+    filterSelection.innerText = filterOption.textContent;
+    filterSelection.style.display = 'block';
+
+    let repertoireList = document.getElementById('repertoire-list');
+    repertoireList.innerHTML = '';
+
+    if (filterOption === filterDropdown.firstElementChild) {
+      populateList(data);
+    } else {
+      filterBy(name, filterOption.textContent);
+    }
+
+    event.preventDefault();
+  }
+
   function loadData(callback) {
     let request = new XMLHttpRequest();
     request.onreadystatechange = processDataResponse.bind(request, callback);
@@ -45,56 +91,10 @@ var app = app || {};
     populateList(data);
   }
 
-  function handleFilter(name) {
-    let selection = document.getElementById(`${name}-filter-selection`);
-    let selectionHandler = displayFilterDropdown.bind(selection, name);
-    selection.addEventListener('mousedown', selectionHandler);
-  }
 
-  function displayFilterDropdown(name, event) {
-    this.style.display = 'none';
-    let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
-    filterDropdown.classList.add('open');
-    event.preventDefault();
-  }
 
-  function handleFilterItems(name) {
-    let dropdown = document.getElementById(`${name}-filter-dropdown`);
-    let filterItemHandler = selectFilterItem.bind(null, name);
-    dropdown.addEventListener('mousedown', filterItemHandler);
-  }
-
-  function selectFilterItem(name, event) {
-    let filterItem = event.target;
-    let correctType = isFilterItem(filterItem);
-
-    if (!correctType) {
-      return;
-    }
-
-    resetFilterSelections();
-
-    let filterSelection = document.getElementById(`${name}-filter-selection`);
-    filterSelection.innerText = event.target.textContent;
-    filterSelection.style.display = 'block';
-
-    let filterDropdown = document.getElementById(`${name}-filter-dropdown`);
-    filterDropdown.classList.remove('open');
-
-    let repertoireList = document.getElementById('repertoire-list');
-    repertoireList.innerHTML = '';
-
-    if (filterItem === filterDropdown.firstElementChild) {
-      populateList(data);
-    } else {
-      filterBy(name, filterItem.textContent);
-    }
-
-    event.preventDefault();
-  }
-
-  function isFilterItem(element) {
-    return element.classList.contains('filter-item');
+  function notFilterItem(element) {
+    return !element.classList.contains('filter-option');
   }
 
   function resetFilterSelections() {
@@ -103,7 +103,7 @@ var app = app || {};
     for (let i = 0; i < filters.length; i++) {
       let filter = filters[i];
       let filterSelection = filter.querySelector('.filter-selection');
-      let firstFilterItem = filter.querySelector(`.filter-dropdown .filter-item`);
+      let firstFilterItem = filter.querySelector(`.filter-dropdown .filter-option`);
       filterSelection.innerText = firstFilterItem.textContent;
     }
   }
@@ -136,7 +136,7 @@ var app = app || {};
     data.sort(sortByComposer);
     data = data.map(getComposer);
     data = getDistinct(data);
-    let toHtml = compileTemplate('filter-item-template');
+    let toHtml = compileTemplate('filter-option-template');
     let itemHtmlArray = data.map(toHtml);
     let list = document.getElementById('composer-filter-dropdown');
     let itemsHtml = itemHtmlArray.join('');
@@ -165,7 +165,7 @@ var app = app || {};
   function populateGenreFilter(data) {
     data = getGenres(data);
     data = getDistinct(data);
-    let toHtml = compileTemplate('filter-item-template');
+    let toHtml = compileTemplate('filter-option-template');
     let itemHtmlArray = data.map(toHtml);
     let list = document.getElementById('genre-filter-dropdown');
     let itemsHtml = itemHtmlArray.join('');
