@@ -86,6 +86,10 @@ section {
   background-position: center;
 }
 
+#services ol {
+  margin: 0 auto;
+}
+
 .filter {
   cursor: pointer;
   display: inline-block;
@@ -154,6 +158,12 @@ section {
   height: 2000px;
 }
 
-footer p {
+footer {
   padding: 1.25rem 0;
+}
+
+#contact-facebook {
+  margin-top: 1rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
